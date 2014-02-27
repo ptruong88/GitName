@@ -15,7 +15,7 @@ private ArrayList<Team> teams= new ArrayList<Team>();
 		
 		//Add yourself below here, Do not delete other Users
 		Student phuong = new Student("Phuong Truong", "ptruong5260@westfield.ma.edu", "ptruong88");
-		phuong.canNotMeet(Day.SATURDAY);//Choose only the days you cannot meet
+		phuong.canNotMeet(Day.SUNDAY);//Choose only the days you cannot meet
 		phuong.preferTimeToMeet(Time.EITHER); // Choose Day/Night/Either
 		addStudent(phuong);
 		
